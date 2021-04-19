@@ -15,5 +15,3 @@ We are {7he B0tS}. We do programming on C++. This is our project with strings.
 
 Copyright (c) [2021] [Yanislav Stoyanov]
 
-
-[Back To The Top](#read-me-template)
