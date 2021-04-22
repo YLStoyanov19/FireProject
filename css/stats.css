@@ -36,15 +36,12 @@ a{
     font-size: 60px;
     color: white;
 }
-a:hover{
-    color:blue;
-}
 #backButton{
     border: none;
     border-radius: 25px;
 }
 #backButton:hover{
-    background-color: green;
+    background-color: darkred;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
