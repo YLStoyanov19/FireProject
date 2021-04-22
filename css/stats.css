@@ -40,6 +40,7 @@ a:hover{
     color:blue;
 }
 #backButton{
+    border: none;
     border-radius: 25px;
 }
 #backButton:hover{
