@@ -4,6 +4,7 @@ function checkInfo() {
 
     if(username == "" || password == "") {
         alert("You should fill all places");
+        alert("You will be automatically returned to the home page!");
     }
     return false;
 }

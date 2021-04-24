@@ -5,8 +5,8 @@ function checkInfo() {
 
     if(username == "" || password == "" || email == "") {
         alert("You should fill all places");
+        alert("You will be automatically returned to the home page!");
     }
-    return false;
 }
 
 document.querySelector(".signin").addEventListener('click', checkInfo);
