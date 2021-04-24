@@ -6,9 +6,9 @@ function checkInfo() {
     if(block == "" || entrance == "" || floor == "") {
         alert("You should fill all places");
     }
-
-    window.open("../html/signal.html")
-
+    else {
+        window.open("../html/submit.html", "_self");
+    }
 }
 
 document.querySelector(".submit").addEventListener('click', checkInfo);
