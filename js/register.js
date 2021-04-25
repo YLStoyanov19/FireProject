@@ -1,12 +1,14 @@
 function checkInfo() {
-    let username = document.querySelector("#username").value;
-    let password = document.querySelector("#password").value;
+    var username = document.querySelector("#username").value;
+    var password = document.querySelector("#password").value;
     let email = document.querySelector("#email").value;
 
     if(username == "" || password == "" || email == "") {
         alert("You should fill all places");
-        alert("You will be automatically returned to the home page!");
+    }
+    else {
+        window.open("../html/home-page.html", "_self");
     }
 }
 
-document.querySelector(".signin").addEventListener('click', checkInfo);
+document.querySelector("#register10").addEventListener('click', checkInfo);
