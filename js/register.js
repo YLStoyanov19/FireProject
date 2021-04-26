@@ -1,4 +1,4 @@
-function checkInfo() {
+function checkRegister() {
     var username = document.querySelector("#username").value;
     var password = document.querySelector("#password").value;
     let email = document.querySelector("#email").value;
@@ -11,4 +11,4 @@ function checkInfo() {
     }
 }
 
-document.querySelector("#register10").addEventListener('click', checkInfo);
+document.querySelector("#register10").addEventListener('click', checkRegister);
